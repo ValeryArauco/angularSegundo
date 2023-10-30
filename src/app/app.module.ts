@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { InicioComponent } from './paginas/inicio/inicio.component';
 import { ProductosComponent } from './paginas/productos/productos.component';
 import { ContactoComponent } from './paginas/contacto/contacto.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { ContactoComponent } from './paginas/contacto/contacto.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

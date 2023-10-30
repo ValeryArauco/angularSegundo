@@ -25,3 +25,15 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+assets para subir imagenes 
+Styles.css es general para dar un estilo de manera global
+index tiene la particularidad de tener app roote
+    rooter outlet es una especie de place holder 
+
+
+SERVICIOS
+    son los encargados de ir a la api y recoger los datos
+    componentes: encargados de mostrar esos datos    
